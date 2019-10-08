@@ -1,0 +1,163 @@
+.content-pro{
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    .roll{
+        background-color: #ffffff;
+        border-top: 1px solid #F5F5F5;
+        padding: 0.1rem 0.2rem 0.2rem 0.2rem;
+        h2{
+            font-size: 0.12rem;
+            font-weight: normal;
+            color: #000118;
+            margin-bottom: 0.1rem;
+        }
+        .over{
+            overflow: hidden;
+            .left{
+                width: 49%;
+                float: left;
+                height: 0.49rem;
+                line-height: 0.49rem;
+                small{
+                    color: #222336;
+                    font-size: 0.16rem;
+                    vertical-align: top;
+                }
+                span{
+                    color: #000118;
+                    font-size: 0.3rem;
+                    font-family: PingFangSC-Light;
+                }
+            }
+            .right{
+                width: 51%;
+                float: right;
+                padding-left: 0.15rem;
+                border-left: 1px solid #CCCCCC;
+                h3{
+                    line-height: 0.17rem;
+                    color: #4A4A4A;
+                    font-size: 0.12rem;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        height: 0.12rem;
+                        width: 0.12rem;
+                        margin-left: 0.05rem;
+                    }
+                }
+                p{
+                    color: #9B9B9B;
+                    font-size: 0.12rem;
+                }
+            }
+        }
+    }
+    ul{
+        margin-top: 0.1rem;
+        background-color: #ffffff;
+        padding: 0 0.2rem;
+        li{
+            list-style: none;
+            height: 0.5rem;
+            line-height: 0.5rem;
+            border-bottom: 1px solid #F5F5F5;
+            font-size: 0.14rem;
+            span{
+                color: #9B9B9B;
+            }
+            .color{
+                color: #4A4A4A;
+            }
+            em{
+                color: #4A4A4A;
+                float: right;
+                text-align: right;
+                font-style: normal;
+            }
+            img{
+                width: 0.13rem;
+                height: 0.13rem;
+                margin-left: 0.05rem;
+                vertical-align: middle;
+            }
+        }
+    }
+    .sureBtn{
+        display: block;
+        margin: 0.4rem 0;
+        padding: 0 0.2rem;
+        a{
+            display: block;
+            height: 0.5rem;
+            line-height: 0.5rem;
+            border-radius: 3px;
+            background: #567BFF;
+            color: #ffffff;
+            text-align: center;
+            font-size: 0.2rem;
+            text-decoration: none;
+        }
+    }
+    .popup{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 2.95rem;
+        height: 2.15rem;
+        margin-left: -1.47rem;
+        margin-top: -1.07rem;
+        background: #ffffff;
+        border-radius: 0.05rem;
+        overflow: hidden;
+        z-index: 10001;
+        img{
+            position: absolute;
+            right: 0.13rem;
+            top: 0.13rem;
+            width: 0.13rem;
+            height: auto;
+        }
+        h2{
+            height: 0.4rem;
+            line-height: 0.4rem;
+            font-weight: normal;
+            text-align: center;
+            background: #D5DDF7;
+            color: #000117;
+            font-size: 0.14rem;
+            font-weight: normal;
+        }
+        table{
+            width: 100%;
+            margin-top: 0.2rem;
+            tr{
+                height: 0.25rem;
+                line-height: 0.25rem;
+                color: #4A4A4A;
+                text-align: left;
+                th{
+                    padding-left: 0.47rem;
+                    font-weight: normal;
+                    font-size: 0.12rem;
+                }
+                td{
+                    padding-left: 0.47rem;
+                    font-size: 0.12rem;
+                }
+            }
+        }
+    }
+}
+.loan_mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000117;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index: 1001;
+}
